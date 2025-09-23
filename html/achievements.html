@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aplikasi Pemvelajaran | Pencapaian</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1 class="page-title"><center>Pencapaian</center></h1>
+
+  <div class="exp-container">
+  <div class="exp-bar" id="exp-bar">0%</div>
+  </div>
+
+  <div id="achievements" class="achievements-grid"></div>
+
+  <div id="popup" class="popup-notification" style="display:none;"></div>
+
+  <div class="unlock-controls">
+    <div class="unlock-btn" onclick="unlockAchievement(1)">Selesai! Sekarang Apa??</div>
+    <div class="unlock-btn" onclick="unlockAchievement(2)">Wow.. Tidak sangka kamu pake ini 7 Hari..</div>
+    <div class="unlock-btn" onclick="unlockAchievement(3)">Saatnya Sistem SKS kah?</div>
+    <div class="unlock-btn" onclick="unlockAchievement(4)">Waktu Istirahat! Cuman 5 Menit??</div>
+  </div>
+
+  <div class="back-container">
+  <a id="Kembali" href="../index.html" class="nav-link"><center>Kembali</center></a>
+  </div>
+
+  <div class="cursor">
+  <img id="cursor" src="assets/cursor_icon/Idle.png" alt="cursor">
+  </div>
+
+  <script src="../js/pencapaian.js"></script>
+  <script src="../js/cursor.js"></script>
+</body>
+</html>

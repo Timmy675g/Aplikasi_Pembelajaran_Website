@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Pembelajaran - Beranda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Aplikasi Pembelajaran</h1>
+
+  <div class="cursor">
+  <img id="cursor" src="assets/cursor_icon/Idle.png" alt="cursor">
+  </div>
+
+  <video autoplay loop muted playsinline id="bg-video-light" class="bg-video">
+  <source src="assets/video/light_mode.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay loop muted playsinline id="bg-video-dark" class="bg-video">
+  <source src="assets/video/dark_mode.mp4" type="video/mp4">
+  </video>
+
+  <div id="tutorialWrapper">
+    <img id="tutorialCharacter" src="assets/icons/character.png" alt="Guide Character">
+    <div id="chatContainer"></div>
+    <button id="skipTutorialBtn">Skip</button>
+  </div>
+
+  <nav>
+      <a id="achievements" href="html/achievements.html" class="link-item">
+        <img src="assets/icons/pencapaian.png" alt="Pencapaian" class="icon">
+        <span class="textlabel">Pencapaian</span>
+      </a>
+      <a id="settings" href="html/settings.html" class="link-item">
+        <img src="assets/icons/settings.png" alt="Settings" class="icon">
+        <span class="textlabel">Pengaturan</span>
+      </a>
+      <a id="statistics" href="html/statistics.html" class="link-item">
+        <img src="assets/icons/analytics.png" alt="Statistik" class="icon">
+        <span class="textlabel">Statistik</span>
+      </a>
+  </nav>
+
+  <a id="profil" href="html/profile.html" class="profile-icon">
+    <img src="assets/icons/profile.png" alt="Profil">
+  </a>
+
+  <main>
+    <div class="main-layout">
+      <section class="task-section">
+        <h2><center>Daftar Tugas</center></h2>
+        <div class="task-input">
+          <input type="text" id="task-input" placeholder="Tambahkan tugas baru...">
+        </div>
+        <div class="task-button-container">
+          <button id="add-task">Tambah</button>
+        </div>
+        <ul id="task-list"></ul>
+      </section>
+
+      <section class="timer-section">
+        <div class="exp-container">
+          <div class="exp-bar" id="exp-bar"></div>
+        </div>
+
+        <div id="display-waktu"><center>25:00</center></div> 
+
+        <div class="pengontrol-waktu">
+          <button id="mulai">Mulai</button>
+          <button id="berhenti">Berhenti</button>
+          <button id="ulang">Ulang</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/startup.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/tasks.js"></script>
+  <script src="js/theme.js"></script>
+</body>
+</html>

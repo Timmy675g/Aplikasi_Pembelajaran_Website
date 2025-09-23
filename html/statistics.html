@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Pembelajaran - Statistik</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../statistics.css">
+</head>
+<body>
+
+  <section class="stats">
+    <h2> Statistik </h2>
+    <ul>
+      <li>Sesi: <span id="stat-sessions">0</span></li>
+      <li>Istirahat Pendek: <span id="stat-short-breaks">0</span></li>
+      <li>Istirahat Panjang: <span id="stat-long-breaks">0</span></li>
+      <li>Total waktu belajar (menit): <span id="stat-time">0</span></li>
+      <li>Total Exp: <span id="stat-exp">0</span></li>
+    </ul>
+  </section>
+
+  <div class="back-container">
+  <a id="Kembali" href="../index.html" class="nav-link"><center>Kembali</center></a>
+  </div>
+
+  <div class="cursor">
+  <img id="cursor" src="assets/cursor_icon/Idle.png" alt="cursor">
+  </div>
+
+  <script src="../js/statistics.js"></script>
+  <script src="../js/timer.js"></script>
+  <script src="../js/cursor.js"></script>
+</body>
+</html>

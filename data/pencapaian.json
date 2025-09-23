@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Selesai! Sekarang Apa??", "desc": "Selesaikan Sesi Pertama", "icon": "img/first.png" },
+  { "id": 2, "name": "Wow.. Tidak sangka kamu pake ini 7 Hari..", "desc": "Gunakan Website Pembelajaran selama 7 Hari", "icon": "img/book.png" },
+  { "id": 3, "name": "Saatnya Sistem SKS kah?", "desc": "Belajar setalah jam 10 Malam", "icon": "img/night.png" },
+  { "id": 4, "name": "Waktu Istirahat! Cuman 5 Menit??", "desc": "Capai Waktu Istirahat Pertama kalinya!", "icon": "img/tema.png"}
+] 
